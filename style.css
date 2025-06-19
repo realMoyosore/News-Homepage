@@ -4,9 +4,47 @@ body {
 
 .main-container {
     width: 100%;
+    margin: 50px, 60px;
     display: grid;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
+/* .page-header {
+    justify-content: space-between;
+} */
+
+.nav-bar {
+    margin-bottom: 50px;
+
+}
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar ul li {
+    display: inline;
+    
+}
+
+/* .nav-bar a {
+    text-decoration: none;
+} */
+
+
+.main-page {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.bottom-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.bottom-item {
+    display: flex;
+}

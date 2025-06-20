@@ -1,103 +1,108 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 body {
-    margin: 0;
-    font-family: 'Inter', sans-serif;
+  margin: 0;
+  font-family: "Inter", sans-serif;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
+  color: hsl(236, 13%, 42%);
 }
 
 h1 {
-    font-weight: 800;
-    font-size: 40px;
-    color: hsl(240, 100%, 5%);
+  font-weight: 800;
+  font-size: 40px;
+  color: hsl(240, 100%, 5%);
 }
 
 p {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .main-container {
-    width: 80%;
-    margin: 50px auto;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .page-header {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
 }
 
-.nav-bar {
-    margin-bottom: 50px;
-
-}
 .nav-bar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-.nav-bar ul li {
-    display: inline;
+.nav-bar li {
+  display: inline;
 }
 
-.nav-bar ul li a {
-    margin-right: 50px
+.nav-bar a {
+  margin-right: 50px;
 }
 
+.nav-bar a:hover {
+  color: hsl(35, 77%, 62%);
+}
 
 .main-page {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 30px;
 }
 
 .main-section {
-    display: grid;
-    grid-template-rows: repeat(2);
+  display: flex;
+  flex-direction: column;
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
 }
 
 .page-banner img {
-    /* width: 100vh; */
+  /* width: 100vh; */
 }
 
 .main-text {
-    display: flex;
+  display: flex;
 }
 
 button {
-    background-color: hsl(5, 85%, 63%);
-    border: none;
+  background-color: hsl(5, 85%, 63%);
+  border: none;
 }
 
 .news-update {
-    background-color: hsl(240, 100%, 5%);
+  background-color: hsl(240, 100%, 5%);
 }
 
 .news-update h2 {
-    color: hsl(35, 77%, 62%);
+  color: hsl(35, 77%, 62%);
 }
 
 .paragraph-heading {
-    color: hsl(36, 100%, 99%);
+  color: hsl(36, 100%, 99%);
 }
 
 .paragraph-text {
-    color: hsl(233, 8%, 79%);
-    border-bottom: 1px solid #fff;
+  color: hsl(233, 8%, 79%);
+  border-bottom: 1px solid #fff;
 }
 
 .bottom-section {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .bottom-item {
-    display: flex;
+  display: flex;
 }

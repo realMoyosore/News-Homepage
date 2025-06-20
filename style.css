@@ -8,7 +8,7 @@ a {
 
 .main-container {
     width: 80%;
-    margin: 50px 150px;
+    margin: 50px auto;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -49,8 +49,34 @@ a {
     grid-template-rows: repeat(2);
 }
 
+.page-banner img {
+    /* width: 100vh; */
+}
+
 .main-text {
     display: flex;
+}
+
+button {
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+}
+
+.news-update {
+    background-color: black;
+    color: #fff
+}
+
+.news-update h2 {
+    color: hsl(35, 77%, 62%);
+}
+
+.news-update p {
+    border-bottom: 1px solid #fff;
+}
+
+.news-update p:last-child {
+    border-bottom: none;
 }
 
 .bottom-section {

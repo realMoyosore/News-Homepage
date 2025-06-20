@@ -1,9 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 body {
     margin: 0;
+    font-family: 'Inter', sans-serif;
 }
 
 a {
     text-decoration: none;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 40px;
+    color: hsl(240, 100%, 5%);
+}
+
+p {
+    font-size: 15px;
 }
 
 .main-container {
@@ -42,6 +55,7 @@ a {
 .main-page {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
 }
 
 .main-section {
@@ -63,20 +77,20 @@ button {
 }
 
 .news-update {
-    background-color: black;
-    color: #fff
+    background-color: hsl(240, 100%, 5%);
 }
 
 .news-update h2 {
     color: hsl(35, 77%, 62%);
 }
 
-.news-update p {
-    border-bottom: 1px solid #fff;
+.paragraph-heading {
+    color: hsl(36, 100%, 99%);
 }
 
-.news-update p:last-child {
-    border-bottom: none;
+.paragraph-text {
+    color: hsl(233, 8%, 79%);
+    border-bottom: 1px solid #fff;
 }
 
 .bottom-section {

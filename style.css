@@ -12,8 +12,11 @@ a {
 
 h1 {
   font-weight: 800;
-  font-size: 40px;
+  font-size: 3rem;
   color: hsl(240, 100%, 5%);
+  line-height: 1.1;
+  margin: 0 0 12px 0;
+  flex: 1;
 }
 
 p {
@@ -69,11 +72,16 @@ p {
 }
 
 .page-banner img {
-  /* width: 100vh; */
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 30px;
 }
 
 .main-text {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
 }
 
 button {

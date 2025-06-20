@@ -3,16 +3,16 @@
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
+  color: hsl(236, 13%, 42%)
 }
 
 a {
   text-decoration: none;
-  color: hsl(236, 13%, 42%);
 }
 
 h1 {
   font-weight: 800;
-  font-size: 3rem;
+  font-size: 4.5rem;
   color: hsl(240, 100%, 5%);
   line-height: 1.1;
   margin: 0 0 12px 0;
@@ -81,12 +81,28 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 50px;
+  gap: 40px;
+}
+
+.main-text p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.subheader-text {
+    margin-left: 70px;
 }
 
 button {
   background-color: hsl(5, 85%, 63%);
   border: none;
+  padding: 20px 50px;
+  color: hsl(240, 100%, 5%);
+  letter-spacing: 5px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 .news-update {

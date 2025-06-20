@@ -44,6 +44,15 @@ a {
     grid-template-columns: repeat(2, 1fr);
 }
 
+.main-section {
+    display: grid;
+    grid-template-rows: repeat(2);
+}
+
+.main-text {
+    display: flex;
+}
+
 .bottom-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

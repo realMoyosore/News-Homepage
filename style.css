@@ -123,10 +123,14 @@ button:hover {
 
 .news-update h2 {
   color: hsl(35, 77%, 62%);
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 .news-update .paragraph-link {
   color: hsl(36, 100%, 99%);
+  font-size: 1.3rem;
+  font-weight: 700;
 }
 
 .paragraph-text {

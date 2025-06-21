@@ -118,24 +118,27 @@ button:hover {
   display: flex;
   flex-direction: column;
   gap: 18px;
-  min-width: 320px;
+  max-width: 320px;
 }
 
 .news-update h2 {
   color: hsl(35, 77%, 62%);
   font-size: 2rem;
   font-weight: 700;
+  margin: 0 0 16px 0;
 }
 
 .news-update .paragraph-link {
   color: hsl(36, 100%, 99%);
   font-size: 1.3rem;
   font-weight: 700;
+  margin: 10px 0;
 }
 
 .paragraph-text {
   color: hsl(233, 8%, 79%);
-  border-bottom: 1px solid #fff;
+  line-height: 2;
+  margin: 20px 0;
 }
 
 .bottom-section {

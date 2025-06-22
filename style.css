@@ -84,10 +84,6 @@ p {
   margin-bottom: 30px;
 }
 
-/* .subheader-text {
-  margin-left: 70px;
-} */
-
 button {
   background-color: hsl(5, 85%, 63%);
   border: none;
@@ -138,8 +134,10 @@ button:hover {
 }
 
 .news-update hr {
+  width: 100%;
   border: none;
-  border-top: 1px solid red;
+  border-top: 1px solid hsl(233, 8%, 79%);
+  opacity: 50%;
 }
 
 .bottom-section {

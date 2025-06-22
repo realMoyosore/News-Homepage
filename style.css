@@ -34,7 +34,7 @@ p {
   display: grid;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100%;
 }
 
 .page-header {
@@ -49,13 +49,14 @@ p {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 50px;
+  justify-content: space-evenly;
+  gap: 55px;
 }
 
 .main-page {
   display: grid;
-  grid-template-columns: 3fr 1fr;
-  gap: 30px;
+  grid-template-columns: 3fr 1.25fr;
+  gap: 40px;
 }
 
 .main-section {
@@ -74,7 +75,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 40px;
+  gap: 165px;
 }
 
 .main-text p {
@@ -105,7 +106,7 @@ button:hover {
 
 .news-update {
   background-color: hsl(240, 100%, 5%);
-  padding: 50px 28px;
+  padding: 55px 45px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -187,5 +188,5 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 5px 0 0 0;
+  margin: 10px 0 0 0;
 }

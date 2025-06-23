@@ -218,10 +218,23 @@ button:hover {
     display: block;
     background: none;
     cursor: pointer;
+    border: none;
   }
 
   .menu-toggle:hover {
     background: none;
+  }
+
+  #close-icon {
+    display: none;
+  }
+
+  .menu-toggle.active #hamburger-icon {
+    display: none;
+  }
+
+    .menu-toggle.active #close-icon {
+    display: none;
   }
 
   .nav-bar ul {

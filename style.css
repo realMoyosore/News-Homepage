@@ -188,3 +188,30 @@ button:hover {
   align-items: center;
   margin: 10px 0 0 0;
 }
+
+
+@media screen and (max-width: 1200px) {
+  .main-page {
+    grid-template-columns: 1fr;
+  }
+
+  .main-text {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .main-text p {
+    margin-bottom: 20px;
+  }
+
+  .news-update {
+    max-width: 100%;
+  }
+
+  .bottom-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  
+}

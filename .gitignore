@@ -4,5 +4,7 @@
 # Misc
 .DS_Store
 Thumbs.db
-*.md
 /design
+README-template.md
+style-guide.md
+

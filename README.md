@@ -45,6 +45,12 @@ news-homepage/
 
 ![News Page Screenshot](/design/screenshot.png)
 
+## Author
+
+- LinkedIn - [Moyosore Sulola](https://www.linkedin.com/in/moyosore-sulola)
+- Frontend Mentor - [@realMoyosore](https://www.frontendmentor.io/profile/realMoyosore)
+- X - [@realMoyosore](https://www.twitter.com/realMoyosore)
+
 ## License
 
 This project is licensed under [Frontend Mentor](https://www.frontendmentor.io/).

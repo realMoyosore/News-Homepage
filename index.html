@@ -26,20 +26,50 @@
             </svg>
           </div>
           <div class="nav-bar">
-            <button class="menu-toggle">
+            <button class="menu-toggle" id="menuToggle">
               <!-- Hamburger icon -->
-              <svg id="hamburger-icon" width="40" height="17" xmlns="http://www.w3.org/2000/svg"><g fill="#00001A" fill-rule="evenodd"><path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z"/><path d="M0 0h40v3H0z"/></g></svg>
-
-              <!-- Close icon -->
-               <svg id="close-icon" width="32" height="31" xmlns="http://www.w3.org/2000/svg"><g fill="#00001A" fill-rule="evenodd"><path d="m2.919.297 28.284 28.284-2.122 2.122L.797 2.419z"/><path d="M.797 28.581 29.081.297l2.122 2.122L2.919 30.703z"/></g></svg>
+              <svg
+                id="hamburger-icon"
+                width="40"
+                height="17"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g fill="#00001A" fill-rule="evenodd">
+                  <path d="M0 0h40v3H0zM0 7h40v3H0zM0 14h40v3H0z" />
+                  <path d="M0 0h40v3H0z" />
+                </g>
+              </svg>
             </button>
-            <ul class="nav-links">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">New</a></li>
-              <li><a href="#">Popular</a></li>
-              <li><a href="#">Trending</a></li>
-              <li><a href="#">Categories</a></li>
-            </ul>
+
+            <div class="mobile-menu-overlay" id="menu-overlay"></div>
+            <nav class="nav-links" id="mobile-nav">
+              <button class="close-btn" id="closeMenu">
+                <!-- Close icon -->
+                <svg
+                  id="close-icon"
+                  width="32"
+                  height="31"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g fill="#00001A" fill-rule="evenodd">
+                    <path
+                      d="m2.919.297 28.284 28.284-2.122 2.122L.797 2.419z"
+                    />
+                    <path
+                      d="M.797 28.581 29.081.297l2.122 2.122L2.919 30.703z"
+                    />
+                  </g>
+                </svg>
+              </button>
+
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Popular</a></li>
+                <li><a href="#">Trending</a></li>
+                <li><a href="#">Categories</a></li>
+              </ul>
+            </nav>
           </div>
         </div>
       </header>
@@ -140,7 +170,7 @@
           </div>
         </div>
       </section>
-     <div class="attribution">
+      <div class="attribution">
         <p>
           Challenge by
           <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
@@ -150,7 +180,7 @@
             Moyosore Sulola</a
           >.
         </p>
-      </div> 
+      </div>
     </div>
   </body>
 </html>
